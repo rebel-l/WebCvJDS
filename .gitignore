@@ -26,3 +26,9 @@ _testmain.go
 # IDEs metadata
 .idea
 *.iml
+
+# Vagrant
+.vagrant
+
+# Vendor
+vendor
