@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "8fa1893ceb175bb54365692ef4271ae5",
+    "content-hash": "faf8f0a943b7dde6e3c809c2512c7bcf",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "rebel-l/sisa",
+            "version": "1.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/Rebel-L/sisa.git",
+                "reference": "1670c5a4d09ea694dcc9a9556562a99dd0a6fa8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/Rebel-L/sisa/get/1670c5a4d09ea694dcc9a9556562a99dd0a6fa8b.zip",
+                "reference": "1670c5a4d09ea694dcc9a9556562a99dd0a6fa8b",
+                "shasum": ""
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rebel L",
+                    "email": "dj@rebel-l.net",
+                    "homepage": "https://bitbucket.org/Rebel-L",
+                    "role": "CTO"
+                }
+            ],
+            "description": "This package provides you chef cookbooks for setting up servers for web applications based on PHP using Vagrant, Virtual Box and Chef Solo. You'll find more details in the README.md",
+            "homepage": "https://bitbucket.org/Rebel-L/sisa",
+            "keywords": [
+                "chef",
+                "configuration management",
+                "provisioning",
+                "server"
+            ],
+            "time": "2016-01-24 03:28:55"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

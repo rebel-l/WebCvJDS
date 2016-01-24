@@ -1,0 +1,21 @@
+{
+	"name": "rebel-l/webcvjds",
+	"description": "A Golang webservice for reading and writing job data to a document based database (MongoDB at first).",
+	"minimum-stability": "stable",
+	"type": "project",
+	"keywords": ["service", "server", "golang"],
+	"homepage": "https://github.com/rebel-l/WebCvJDS",
+	"require-dev": {
+		"rebel-l/sisa": "1.3.3"
+	},
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Rebel L",
+			"email": "dj@rebel-l.net",
+			"homepage": "https://github.com/rebel-l",
+			"role": "CTO"
+		}
+	],
+	"require": {}
+}
