@@ -43,7 +43,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 			chef.json = {
 				'Golang' => {
 					'version' => '1.6.2',
-					'gopath' => '/home/vagrant/go'
+					'gopath' => '/home/vagrant/go',
+					'packages' => [
+						'github.com/gin-gonic/gin'
+					]
 				},
 				'Iptables' => {
 					'Whitelist'	=> {
