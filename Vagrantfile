@@ -23,7 +23,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 		webcvjds.vm.hostname = 'service.jds.dev'
 
 		# Provider-specific configuration
-		config.vm.provider "virtualbox" do |vbjds|
+		webcvjds.vm.provider "virtualbox" do |vbjds|
 		    vbjds.name = "WebCvJds_Service"
 			vbjds.memory = 384
 #			vbjds.gui = true
@@ -63,7 +63,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 		mongodb.vm.hostname = 'mongodb.jds.dev'
 
 		# Provider-specific configuration
-		config.vm.provider "virtualbox" do |vbmongo|
+		mongodb.vm.provider "virtualbox" do |vbmongo|
 		    vbmongo.name = "WebCvJds_MongoDb"
 			vbmongo.memory = 1024
 			vbmongo.cpus = 2
